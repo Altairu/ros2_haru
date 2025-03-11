@@ -33,7 +33,8 @@ class PS3ControllerNode(Node):
                 self.button_states[0] = True
         else:
             if self.button_states[0]:
-                self.action_number += 1
+                if self.action_number < 10:
+                    self.action_number += 1
                 self.button_states[0] = False
 
         # 四角ボタン
@@ -42,7 +43,8 @@ class PS3ControllerNode(Node):
                 self.button_states[1] = True
         else:
             if self.button_states[1]:
-                self.action_number -= 1
+                if self.action_number > 0:
+                    self.action_number -= 1
                 self.button_states[1] = False
 
         data = Float32MultiArray()

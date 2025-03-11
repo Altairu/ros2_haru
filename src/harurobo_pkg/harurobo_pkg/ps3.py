@@ -19,7 +19,7 @@ class PS3ControllerNode(Node):
             self.get_logger().error("No joystick found")
         self.action_number = 0  # 初期値を設定
         self.button_states = [False, False]  # 丸ボタンと四角ボタンの状態を保持
-        self.timer = self.create_timer(0.1, self.timer_callback)  # 100msに一回
+        self.timer = self.create_timer(0.001, self.timer_callback)  # 1msに一回
 
     def timer_callback(self):
         pygame.event.pump()
