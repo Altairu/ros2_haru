@@ -10,11 +10,11 @@ colcon build
 source /opt/ros/humble/setup.bash
 source install/setup.bash
 
-# planning_nodeを新しいタブで開始
-gnome-terminal --tab --title="planning_node" -- bash -c "source /opt/ros/humble/setup.bash; source install/setup.bash; ros2 run harurobo_pkg planning_node; exec bash"
+# roboware_node
+#gnome-terminal --tab --title="roboware_node" -- bash -c "source /opt/ros/humble/setup.bash; source install/setup.bash; ros2 run harurobo_pkg roboware_node; exec bash"
 
-# web_socket_nodeを新しいタブで開始
-gnome-terminal --tab --title="web_socket_node" -- bash -c "source /opt/ros/humble/setup.bash; source install/setup.bash; ros2 run harurobo_pkg web_socket_node; exec bash"
+# ps3
+gnome-terminal --tab --title="ps3" -- bash -c "source /opt/ros/humble/setup.bash; source install/setup.bash; ros2 run harurobo_pkg ps3; exec bash"
 
 # can_nodeを新しいタブで開始
 gnome-terminal --tab --title="can_node" -- bash -c "source /opt/ros/humble/setup.bash; source install/setup.bash; ros2 run harurobo_pkg can_node; exec bash"

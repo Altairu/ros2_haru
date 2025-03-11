@@ -26,7 +26,7 @@ with open(UI_PATH, 'r') as f:
 class WebSocketNode(Node):
     def __init__(self):
         super().__init__('web_socket_node')
-        self.send_data = ''
+        self.send_data = [0, 0, 0]  # 初期値を設定
         self.pub = self.create_publisher(String, 'web_socket_pub', 10)
         self.sub = self.create_subscription(Float32MultiArray, 'robot_position', self.callback, 10) #estimated_position->robot_positionに変更
         self.timer = self.create_timer(0.001, self.timer_callback)  # 1msに一回

@@ -1,0 +1,29 @@
+[1.404s] Invoking command in '/home/altair/ros2_haru/src/harurobo_pkg': PYTHONPATH=/home/altair/ros2_haru/build/harurobo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/altair/ros2_haru/install/harurobo_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/harurobo_pkg build --build-base /home/altair/ros2_haru/build/harurobo_pkg/build install --record /home/altair/ros2_haru/build/harurobo_pkg/install.log --single-version-externally-managed install_data
+[1.638s] /home/altair/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.638s]   warnings.warn(msg)
+[1.837s] running egg_info
+[1.865s] writing ../../build/harurobo_pkg/harurobo_pkg.egg-info/PKG-INFO
+[1.866s] writing dependency_links to ../../build/harurobo_pkg/harurobo_pkg.egg-info/dependency_links.txt
+[1.866s] writing entry points to ../../build/harurobo_pkg/harurobo_pkg.egg-info/entry_points.txt
+[1.866s] writing requirements to ../../build/harurobo_pkg/harurobo_pkg.egg-info/requires.txt
+[1.867s] writing top-level names to ../../build/harurobo_pkg/harurobo_pkg.egg-info/top_level.txt
+[1.923s] reading manifest file '../../build/harurobo_pkg/harurobo_pkg.egg-info/SOURCES.txt'
+[1.924s] writing manifest file '../../build/harurobo_pkg/harurobo_pkg.egg-info/SOURCES.txt'
+[1.925s] running build
+[1.925s] running build_py
+[1.925s] copying harurobo_pkg/ps3.py -> /home/altair/ros2_haru/build/harurobo_pkg/build/lib/harurobo_pkg
+[1.925s] copying harurobo_pkg/can_node.py -> /home/altair/ros2_haru/build/harurobo_pkg/build/lib/harurobo_pkg
+[1.926s] running install
+[1.931s] running install_lib
+[1.960s] copying /home/altair/ros2_haru/build/harurobo_pkg/build/lib/harurobo_pkg/can_node.py -> /home/altair/ros2_haru/install/harurobo_pkg/lib/python3.10/site-packages/harurobo_pkg
+[1.961s] byte-compiling /home/altair/ros2_haru/install/harurobo_pkg/lib/python3.10/site-packages/harurobo_pkg/can_node.py to can_node.cpython-310.pyc
+[1.962s] running install_data
+[1.963s] running install_egg_info
+[1.991s] removing '/home/altair/ros2_haru/install/harurobo_pkg/lib/python3.10/site-packages/harurobo_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.993s] Copying ../../build/harurobo_pkg/harurobo_pkg.egg-info to /home/altair/ros2_haru/install/harurobo_pkg/lib/python3.10/site-packages/harurobo_pkg-0.0.0-py3.10.egg-info
+[2.001s] running install_scripts
+[2.246s] Installing can_node script to /home/altair/ros2_haru/install/harurobo_pkg/lib/harurobo_pkg
+[2.247s] Installing planning_node script to /home/altair/ros2_haru/install/harurobo_pkg/lib/harurobo_pkg
+[2.247s] Installing ps3 script to /home/altair/ros2_haru/install/harurobo_pkg/lib/harurobo_pkg
+[2.247s] writing list of installed files to '/home/altair/ros2_haru/build/harurobo_pkg/install.log'
+[2.291s] Invoked command in '/home/altair/ros2_haru/src/harurobo_pkg' returned '0': PYTHONPATH=/home/altair/ros2_haru/build/harurobo_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/altair/ros2_haru/install/harurobo_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/harurobo_pkg build --build-base /home/altair/ros2_haru/build/harurobo_pkg/build install --record /home/altair/ros2_haru/build/harurobo_pkg/install.log --single-version-externally-managed install_data

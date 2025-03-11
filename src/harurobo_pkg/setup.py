@@ -21,7 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'can_node = harurobo_pkg.can_node:main',
-            'web_socket_node = harurobo_pkg.web_socket_node:main',
+            'ps3 = harurobo_pkg.ps3:main',
             'planning_node = harurobo_pkg.planning_node:main',
         ],
     },
